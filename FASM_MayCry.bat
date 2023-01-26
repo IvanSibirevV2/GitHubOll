@@ -2,5 +2,4 @@
 cd %~dp0
 echo %cd%
 git clone --depth 1 https://github.com/IvanSibirevV2/FASM_MayCry.git
-TIMEOUT /T 1
-exit /b
+del %0
